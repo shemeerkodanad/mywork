@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+body {
+    margin: 0;
+  padding: 0;
+  background: #fff;
+}
+.nav ul
+{
+list-style:none;
+margin:0;
+padding:0;
+text-align:center;
+background-color:#444;
+}
+.nav li{
+font-family: sans-serif;
+font-size:1.2em;
+line-height: 40px;
+height:40px;
+margin-left:50px;
+border-bottom: 1px solid #888;
+display: inline-block;
+
+}
+.mycharts{
+  max-width: 532px;
+}
+.my-contact-form {
+    display: block;
+    float:right;
+
+    margin-right: 400px;
+    margin-top: 142px;
+    background-color: #444;
+color: #fff;
+padding: 100px;
+text-align: center;
+
+  }
+
+.my-contact-button {
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 32px;
+    margin-left: 141px;
+    cursor: pointer;
+}
+.my-contact-form input {
+  top: 0px;
+   border: 1px solid #ccc;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+   -moz-box-shadow: 2px 2px 3px #666;
+   -webkit-box-shadow: 2px 2px 3px #666;
+   box-shadow: 2px 2px 3px #666;
+   font-size: 16px;
+   padding: 4px 7px;
+   outline: 0;
+   -webkit-appearance: none;
+   //float: left;
+   display: inline-block;
+   //clear: left;
+   width: 150px;
+   margin: 9px;
+       color: #444;
+}
+.my-contact-form label {
+
+  display: inline-block;
+    width: 110px;
+    float: left;
+    margin-top: 14px;
+
+}
+
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+
+}
+.nav a:hover{
+background-color :#005f5f;
+cursor:pointer;
+
+}
+.nav a.active{
+
+background-color: #fff;
+  color: #444;
+  cursor: default;
+
+}
+
+.login-link {
+  color: white;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.product-detail {
+  padding: 40px;
+  margin:100px;
+  width:100%;
+  display:block;
+}
+.product-img {
+ width:350px;
+ display:inline-block;
+
+ float:left;
+}
+.product-description {
+margin-left:450px;
+
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
